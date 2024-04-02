@@ -120,3 +120,5 @@ prometheus:
       enabled: true
       existingClaim: "prometheus-pvc"
       volumeName: "prometheus-pv"
+    service:
+      Type: loadBalancer
